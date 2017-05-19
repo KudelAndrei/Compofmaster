@@ -25,10 +25,17 @@
 	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
 
 	<link rel="stylesheet" href="css/main.min.css">
+	<script src="https://vk.com/js/api/openapi.js?146" type="text/javascript"></script>
 
 </head>
 
 <body class="is-home">
+
+	<!— VK Widget —> 
+	<div id="vk_community_messages"></div> 
+	<script type="text/javascript"> 
+		VK.Widgets.CommunityMessages("vk_community_messages", 105241171, {tooltipButtonText: "Задайть вопрос "}); 
+	</script>
 
 	<!-- прелоадер -->
 	<div class="preloader">
@@ -115,8 +122,8 @@
 						</div>
 						<div class="col-sm-4">
 							<ul class="soc hidden-xs">
-								<li class="soc__item"><a href="https://vk.com/compof" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-								<li class="soc__item"><a href="https://www.instagram.com/compofmaster/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="soc__item"><a href="https://vk.com/compof"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+								<li class="soc__item"><a href="https://www.instagram.com/compofmaster/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -388,8 +395,8 @@
 						<li class="contacts__item"><strong><i class="fa fa-envelope" aria-hidden="true"></i> E-mail</strong> Compofmaster@mail.ru</li>
 						<li class="contacts__item">
 							<ul class="soc">
-								<li class="soc__item"><a href="https://vk.com/compof" target="_blank"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
-								<li class="soc__item"><a href="https://www.instagram.com/compofmaster/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li class="soc__item"><a href="https://vk.com/compof"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+								<li class="soc__item"><a href="https://www.instagram.com/compofmaster/"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
 							</ul>
 						</li>
 					</ul>
@@ -465,6 +472,6 @@
 	</form>
 
 	<script src="js/scripts.min.js"></script>
-
+	
 </body>
 </html>
